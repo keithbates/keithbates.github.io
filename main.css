@@ -1,0 +1,249 @@
+/* CSS Document */
+
+body {
+	background-color:#FFFFFF;
+	margin:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	
+	/* OPTIONAL BACKGROUND IMAGE
+	
+	background-image:url(images/backgrounds/main.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+	
+	*/
+}
+
+a {
+	color:#999999;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+
+h1 {
+	font-family:"Georgia", Times, serif;
+  font-size:240%;
+	color:#ff0000;
+	font-weight:normal;
+	line-height:15px;
+		}
+
+h2 {
+	font-variant:small-caps;
+	font-size:120%;
+	line-height:10px;
+	font-weight:normal;
+	color:#626477;
+  letter-spacing:2px;
+  width:700px;
+	margin:0 auto 0 auto;
+	padding:0 0 14px 0;
+	text-align:center;
+	border-bottom:1px dashed #cccccc;
+}
+
+
+		
+
+
+/* THE AREA THAT CONTAINS THE LOGO AND THE WEBSITE TITLE */
+
+#title {
+	margin:0 auto 0 auto;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+#title p {
+	font-variant:small-caps;
+	font-size:120%;
+	letter-spacing:3px;
+  width:680px;
+	margin:0 auto 0 auto;
+	padding:10px;
+	text-align:center;
+	border-bottom:1px dashed #cccccc;
+
+}
+
+/* PROPERTIES OF THE HEADER IMAGE */
+
+#title img {
+	border:none;
+	
+}
+
+/* THE AREA THAT CONTAINS ALL THE CONTENT OF THE WEBSITE */
+
+#container {
+	width:700px;
+	margin:0 auto 0 auto;
+}
+
+/* THE SIDEBAR WITHIN THE CONTAINER */
+
+#sidebar {
+	width:220px;
+	float: right;
+	padding-top:15px;
+}
+
+#sidebar h1 {
+	font-family:Verdana, Trebuchet, Arial;
+  text-align:right;
+	font-size:165%;
+	color:#626477;
+	border-bottom:1px dashed #eeeeee;
+}
+
+#sidebar p {
+	line-height:20px;
+	text-align:left;
+}
+
+
+/* RIGHT MENU */
+
+#menu {
+	text-align:right;
+}
+
+#menu a {
+	color:#666;
+	font-size:100%;
+	background-image:url(images/backgrounds/a.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	
+	padding-right:10px;
+	line-height:17px;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color:#cccccc;
+	background-image:url(images/backgrounds/a_hover.jpg);
+}
+
+
+/* LEFT SIDE */
+
+#content {
+	margin-right:220px;
+	padding-right:20px;
+	border-right:1px solid #999;
+	background-image:url(images/backgrounds/content.jpg);
+	background-position:right;
+	background-repeat:repeat-y;
+
+}
+
+#content h1 {
+	font-family:Verdana, Trebuchet, Arial;
+	text-align:left;
+	font-size:165%;
+	color:#626477;
+	border-bottom:1px dashed #eeeeee;
+	padding-top:15px !important;
+
+}
+
+#content h5 {
+	font-family:Verdana, Trebuchet, Arial;
+	font-weight:normal;
+	font-size:120%;
+	color:#626477;
+	line-height:15px;
+	
+}
+
+#content h4 {
+	font-size:120%;
+	color:#663399;
+	line-height:15px;
+	padding-right:30px;
+	padding-left:25px;
+}
+
+	#content h3 {
+	font-family:Verdana, Trebuchet, Arial;
+	font-weight:normal;
+	text-align:left;
+	font-size:130%;
+	color:#626477;
+	padding-top:10px !important;
+}
+
+#content p {
+	font-size:100%;
+	line-height:19px;
+	text-indent:0px;
+}
+
+#content p.call {
+	font-size:90%;
+	color:#663399;
+	line-height:15px;
+	padding-right:30px;
+	padding-left:25px;
+}
+
+	#content p.quote {
+	font-family:Georgia, serif;
+	font-size:100%;
+	font-style: oblique;
+	color:#663399;
+	line-height:15px;
+	padding-right:20px;
+	padding-left:25px;
+}
+
+#content ol,ul {
+	line-height:25px;
+}
+
+#content li {
+	list-style-image:url(images/backgrounds/li.gif);
+}
+
+#menu2 {
+	text-align:left;
+}
+
+#menu2 a {
+	color:#666;
+	font-size:100%;
+	background-image:url(images/backgrounds/b.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	
+	padding-left:10px;
+	line-height:17px;
+	text-decoration:none;
+}
+
+#menu2 a:hover {
+	color:#cccccc;
+	background-image:url(images/backgrounds/b_hover.jpg);
+}
+
+
+
+/* THE FOOTER */
+
+#footer {
+	width:680px;
+	margin:10px auto 0 auto;
+	padding:6px;
+	text-align: right;
+	border-top:1px dashed #cccccc;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+}
+

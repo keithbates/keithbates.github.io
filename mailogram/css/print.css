@@ -1,0 +1,14 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+ body {
+  background-color: #fff;
+  color: #000;
+ }
+
+ h2	{
+ 	  color: #000;
+ }
+
+ nav {display: none}

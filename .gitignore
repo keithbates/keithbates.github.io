@@ -2,3 +2,5 @@
 *.sublime-project
 
 Mail Art Site.sublime-workspace
+
+.DS_Store
